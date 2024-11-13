@@ -1,16 +1,125 @@
-html {
-    background-color: aqua;
+.childeren__containerr{
+    /* background-color: #000; */
+    margin-right: 3rem;
 }
-header {
-    align-items: center;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-nav ul {
-    text-align: center;
-    flex: 1;
+
+body{
+    font-family: Arial, sans-serif;
 }
-nav {
+
+.main__hero__container{
+     background-image: linear-gradient(rgba(7, 17, 40, 0.438), rgba(7, 17, 40, 0.438)), url(./image/bg-01.jpg);
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+.iconic {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+}
+
+.navigation__bar{
     display: flex;
-    margin: 10px 20px;
-    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    position: relative;
+}
+.navigation__bar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.navigation__bar ul li{
+    color:  #fff;
+    font-weight: 600;
+}
+
+.childeren__container .flex__container{
+    display: flex;
+    gap: 2rem;
+}
+
+.flex__container{
+    position: relative;
+}
+
+.flex__container i{
+    color: #fff;
+}
+
+.flex__container .shpping__cart span{
+    background-color: #fff;
+    padding: 1px 5px;
+    border-radius: 50%;
+    font-size: 13px;
+    position: absolute;
+    top: -80%;
+}
+
+.hero__page__container{
     text-align: center;
+    margin-top: 9rem;
+    
+}
+
+.hero__page__container span{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.hero__page__container h2{
+     font-family: "Cormorant Garamond", serif;
+     color: #fff;
+     font-size: 4.5rem;
+     font-style: italic;
+     width: 50%;
+     margin: auto;
+}
+
+.hero__page__container p{
+    font-family:   "Cormorant Garamond", serif;
+     color: #fff;
+     width: 55%;
+     font-size: 17px;
+     font-weight: 700;
+     margin: auto;
+}
+
+.button__container{
+    margin-top: 2rem;
+}
+
+.button__container button {
+    width: 220px;
+    height: 47px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button__container button:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000000;
+    font-family: inherit;
 }
