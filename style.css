@@ -1,0 +1,16 @@
+html {
+    background-color: aqua;
+}
+header {
+    align-items: center;
+}
+nav ul {
+    text-align: center;
+    flex: 1;
+}
+nav {
+    display: flex;
+    margin: 10px 20px;
+    padding: 4px;
+    text-align: center;
+}
